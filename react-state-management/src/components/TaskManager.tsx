@@ -10,8 +10,8 @@ const TaskManager = () => {
   const { theme } = useTheme();
 
   const addTask = () => {
-     dispatch({ type: "add", payload: task });
-     setTask("");
+    dispatch({ type: "add", payload: task });
+    setTask("");
   };
 
   return (
